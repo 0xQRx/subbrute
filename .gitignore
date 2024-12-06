@@ -1,2 +1,6 @@
 *dns-names.txt
-subbrute
+# Ignore the subbrute binary
+/subbrute
+
+# Do not ignore the cmd folder and its contents
+!/cmd/
