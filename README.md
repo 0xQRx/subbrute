@@ -15,18 +15,12 @@ This tool is a highly efficient and recursive subdomain brute-forcing program wr
 
 ## Installation
 
-1. Clone the repository:
+1. Install with GO:
    ```bash
-   git clone https://github.com/0xQRx/subbrute.git
-   cd subbrute
+   go install github.com/0xQRx/subbrute/cmd/subbrute@latest
    ```
 
-2. Install the tool:
-   ```bash
-   go install ./cmd/subbrute
-   ```
-
-3. Ensure the binary is available in your `$PATH` (typically `~/go/bin`).
+2. Ensure the binary is available in your `$PATH` (typically `~/go/bin`).
 
 ---
 
